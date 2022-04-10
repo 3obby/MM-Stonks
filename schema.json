@@ -122,6 +122,12 @@
                         },
                         "virtualHorizontalMultiplier": {
                             "type": "integer"
+                        },
+                        "getStockmarketState": {
+                            "type": "boolean"
+                        },
+                        "getPreMarketChangePercent": {
+                            "type": "boolean"
                         }
                     }
                 }
@@ -265,7 +271,18 @@
                     "title": "virtualHorizontalMultiplier",
                     "key": "MMM-Jast.config.virtualHorizontalMultiplier",
                     "description": "Virtually repeats the stocklist in horizontal mode to avoid whitespaces"
+                },
+                {
+                    "title": "getStockmarketState",
+                    "key": "MMM-Jast.config.getStockmarketState",
+                    "description": "Shows current market state"
+                },
+                {
+                    "title": "getPreMarketChangePercent",
+                    "key": "MMM-Jast.config.getPreMarketChangePercent",
+                    "description": "Shows pre-market change in percent"
                 }
+                
             ]
         }
     ],
@@ -321,7 +338,9 @@
             "showPortfolioValue": false,
             "showPortfolioGrowth": false,
             "showPortfolioGrowthPercent": false,
-            "virtualHorizontalMultiplier": 2
+            "virtualHorizontalMultiplier": 2,
+            "getStockmarketState": true,
+            "getPreMarketChangePercent": true
         }
     }
 }

@@ -53,6 +53,9 @@
 .jast-wrapper:not(.monochrome) .jast-stock span.low {
   color: red;
 }
+.jast-wrapper:not(.monochrome) .jast-stock span.closed {
+  color: #999;
+}
 
 .jast-multi-currency::before {
   color: #999;
@@ -64,6 +67,6 @@
   font-size: calc(var(--size) - 0.3em);
 }
 
-.jast-wrapper span.jast-change-value:nth-child(2)::before {
-  content: " | ";
+.jast-wrapper span.jast-change-value:nth-child(1n)::before {
+  content: " ";
 }

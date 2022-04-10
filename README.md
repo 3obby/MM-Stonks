@@ -1,4 +1,9 @@
+Mods:
+Added marketState/preMarketChange from :+1: [node-yahoo-finance](https://github.com/pilwon/node-yahoo-finance/blob/master/docs/quote.md) :+1:
+-3obby
+
 # MMM-JaST - **J**ust **a**nother **S**tock **T**icker
+
 
 [![version](https://img.shields.io/github/package-json/v/jalibu/MMM-Jast)](https://github.com/jalibu/MMM-Jast/releases) [![Known Vulnerabilities](https://snyk.io/test/github/jalibu/MMM-Jast/badge.svg?targetFile=package.json)](https://snyk.io/test/github/jalibu/MMM-Jast?targetFile=package.json)
 
@@ -114,6 +119,7 @@ Static
 
 # custom
 getStockmarketState			  | (String) Shows current market state 												   | true       |
+getPreMarketChangePercent	  | (String) Shows pre-market change in percent											   | true       |
 
 ### Stock Object
 
